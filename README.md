@@ -1,16 +1,76 @@
-# React + Vite
+# React UI Project
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A React-based UI project created to practice building modern web interfaces using reusable components, props handling, and component-based architecture.
 
-Currently, two official plugins are available:
+The project focuses on recreating a modern digital banking platform UI while breaking the interface into smaller and reusable React components.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Preview
 
-## React Compiler
+The project contains a digital banking themed interface with sections such as:
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- Navigation bar
+- Hero section
+- Page content
+- Customer segmentation cards
+- Multiple UI sections
+- Reusable arrow and card components
 
-## Expanding the ESLint configuration
+## Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- Built using React
+- Component-based architecture
+- Reusable React components
+- Props handling
+- Dynamic card content
+- Multiple UI sections
+- Image-based UI cards
+- Custom CSS styling
+- Remix Icon integration
+- Modern and minimal UI design
+
+## Technologies Used
+
+- React
+- JavaScript
+- HTML
+- CSS
+- Vite
+- Remix Icons
+
+## Project Structure
+
+```text
+07-ui-project/
+│
+├── node_modules/
+│
+├── public/
+│
+├── src/
+│   │
+│   ├── assets/
+│   │
+│   ├── components/
+│   │   │
+│   │   ├── Section1/
+│   │   │   ├── Arrow.jsx
+│   │   │   ├── HeroText.jsx
+│   │   │   ├── LeftContent.jsx
+│   │   │   ├── Navbar.jsx
+│   │   │   ├── Page1Content.jsx
+│   │   │   ├── RightCard.jsx
+│   │   │   ├── RightCardContent.jsx
+│   │   │   ├── RightContent.jsx
+│   │   │   └── Section1.jsx
+│   │   │
+│   │   └── Section2/
+│   │       └── Section2.jsx
+│   │
+│   ├── App.jsx
+│   ├── index.css
+│   └── main.jsx
+│
+├── .gitignore
+├── eslint.config.js
+├── package.json
+└── README.md
